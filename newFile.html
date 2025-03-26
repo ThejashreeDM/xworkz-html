@@ -3,7 +3,7 @@
 
 <head>
     <meta chatset="UTF-8">
-    <meta name="viewport" content="width=device-width" ,>
+    <meta name="viewport" content="width=device-width">
     <title>First HTML Page</title>
 </head>
 
@@ -13,69 +13,75 @@
 
         <form>
             <div>
-                <label for="1">Name</label>
+                <label for="nameId">Name</label>
                 <span style="color: red;">*</span>
                 <span>:</span>
-                <input type="text" id="1" required>
+                <input type="text" id="nameId" required>
 
 
             </div><br>
             <div>
-                <label for="2">DOB</label>
+                <label for="dob">DOB</label>
                 <span style="color:red;">*</span>
                 <span>:</span>
-                <input type="datetime-local" id="2" required>
+                <input type="datetime-local" id="dob" required>
 
             </div><br>
             <div>
-                <label for=>Gender</label>
+                <label>Gender</label>
                 <span style="color:red;">*</span>
                 <span>:</span>
-                <input type="radio">
-                <span>Male</span>
-                <input type="radio">
-                <span>Female</span>
+                <label for="female">Female</label>
+                <input type="radio" name="radioName" id="female" required>
+                <label for="male">Male</label>
+                <input type="radio" name="radioName" id="male" required>
+
 
             </div><br>
             <div>
-                <label for="4">Email</label>
+                <label for="emailId">Email</label>
                 <span style="color:red;">*</span>
                 <span>:</span>
-                <input type="email" id="4" required>
+                <input type="email" id="emailId" required>
 
 
             </div><br>
             <div>
 
-                <label for="5">Phone No</label>
+                <label for="phone">Phone No</label>
                 <span style="color: red">*</span>
                 <span>:</span>
-                <input type="number" id="5" required>
+                <input type="text" id="phone" required>
             </div><br>
             <div>
 
-                <label for="6">Password</label>
+                <label for="pass">Password</label>
                 <span style="color: red">*</span>
                 <span>:</span>
-                <input type="password" id="5" required>
+                <input type="password" id="pass" required>
             </div><br>
             <div>
 
-                <label for="7">Confirm Password</label>
+                <label for="confirm">Confirm Password</label>
                 <span style="color: red">*</span>
                 <span>:</span>
-                <input type="password" id="7" required>
+                <input type="password" id="confirm" required>
             </div><br>
             <div>
 
                 <label>Interested Courses</label>
                 <span style="color: red">*</span>
                 <span>:</span>
-                <input type="checkbox">
-                <span>Java</span>
-                <input type="checkbox">
-                <span>HTML</span>
-                
+                <label for="check1">Java</label>
+                <input type="checkbox" id="check1" required>
+                <label for="check2">HTML</label>
+                <input type="checkbox" id="check2" required>
+                <label for="check3">CSS</label>
+                <input type="checkbox" id="check3">
+                <label for="check4">JavaScript</label>
+                <input type="checkbox" id="check4">
+               
+
             </div>
 
 
